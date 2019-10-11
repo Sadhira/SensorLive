@@ -349,7 +349,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         mBluetoothAdapter.cancelDiscovery();
-        Log.d("discovery canceled", "canceled discoverey");
+        Log.d("discovery canceled", "canceled discovery");
 
         try {
             BluetoothDevice mDevice = mBluetoothAdapter.getRemoteDevice(adaddress);
